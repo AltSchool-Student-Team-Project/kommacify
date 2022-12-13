@@ -27,3 +27,6 @@
     - Website [`Blyncnov`](https://pro-blyncnov.vercel.app).
     - Twitter [`@jeremytechie`](https://twitter.com/jeremytechie).
     - Linkedin [`Taiwo Boluwatife`](https://linkedin.com/in/blyncnov).
+    - Twitter [`@Chinecheretinau]`(https://twitter.com/Chinecheretinau).
+    - Linkedin [`Chinecherem Ugwuanyi`(www.linkedin.com/in/chinecherem2020).
+
