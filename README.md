@@ -28,5 +28,5 @@
     - Twitter [`@jeremytechie`](https://twitter.com/jeremytechie).
     - Linkedin [`Taiwo Boluwatife`](https://linkedin.com/in/blyncnov).
     - Twitter [`@Chinecheretinau]`(https://twitter.com/Chinecheretinau).
-    - Linkedin [`Chinecherem Ugwuanyi`(www.linkedin.com/in/chinecherem2020).
+    - Linkedin [`Chinecherem Ugwuanyi`(https://linkedin.com/in/chinecherem2020).
 
