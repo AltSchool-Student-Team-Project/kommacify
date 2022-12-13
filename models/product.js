@@ -16,6 +16,12 @@ const ProductSchema = new Schema({
     type: Number,
     required: true,
   },
+  color: {
+    type: String
+  },
+  netWeight: {
+    type: Number
+  },
 });
 
 const Product = mongoose.model("Product", ProductSchema);
