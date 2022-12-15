@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+import connectToMongoDB from './database.js';
 
 // MiddleWares;
 import { isLoggedIn } from "./middlewares/isLoggedIn.js";
@@ -19,6 +20,10 @@ app.use(express.json());
 
 // PORT
 const PORT = process.env.PORT || 8080;
+
+
+// Connect to MongoDB
+connectToMongoDB();
 
 // Auth Routes
 app.use("/api/v1/auth", AuthRoutes);
