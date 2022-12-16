@@ -10,7 +10,25 @@ const orderSchema = new Schema({
     quantity: {
         type: Number,
         default: 1                                      // if no quantity is specified, a default of 1 is used
-    }
+    },
+    size: { 
+        type: String, 
+        enum: ['m', 's', 'l']
+    },
+    state: {
+        type: Number,
+        default: 1,
+    },
+    total_price: {
+        type: Number,
+    },
+    color: {
+        type: String,
+    },
+    timestamp: {
+        created_at: { type: Date, default: Date.now },
+        updated_at: { type: Date, default: Date.now },
+    }, 
 });
 
 module.exports = mongoose.model('Order', orderSchema);
