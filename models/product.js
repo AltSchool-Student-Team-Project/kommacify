@@ -8,7 +8,7 @@ const ProductSchema = new Schema({
     type: String,
     required: true,
   },
-  name: {
+  description: {
     type: String,
     required: true,
   },
@@ -16,11 +16,9 @@ const ProductSchema = new Schema({
     type: Number,
     required: true,
   },
-  color: {
-    type: String
-  },
+  
   netWeight: {
-    type: Number
+    type: Number,
   },
 });
 
